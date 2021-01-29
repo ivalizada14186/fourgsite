@@ -1,0 +1,105 @@
+
+p {
+  font-family: Arial;
+}
+
+h1{
+  color: maroon;
+}
+
+header h1{
+color: teal;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+
+.cursive{
+  font-family: cursive;
+}
+
+
+h2.name{
+  font-family: cursive;
+}
+
+.description h5{
+  color: teal;
+}
+.description
+{
+	font-size: 20px;
+}
+
+
+h5{
+  color: rebeccapurple;
+}
+
+h5, p{
+  font-family: Georgia;
+}
+
+header p {
+  font-family: 'Londrina Solid', cursive;
+  
+}
+header
+{
+	margin-left: 60px;
+	margin-top: 60px;
+}
+.name
+{
+	margin-top: 45px;
+}
+.box {
+border-radius: 25px;
+background: #bdffc1;
+padding: 15px;
+width: 230px;
+height: 170px;
+margin-bottom: 50px;
+}
+.name, .description, .box
+{
+	margin-left:100px; 
+	margin-right: 100px;
+}
+/*footer*/
+.menu li{ 
+	list-style-type: none;
+	font-size: 30px;
+	font-family: Calibri;
+	padding: 10px 15px;
+	border: 1px solid #0384ab;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 93px 11px;
+	background-color: #0384ab;
+	overflow: hidden;
+}
+.menu li:hover{
+	background-color:  #00b6ed;
+
+}
+.menu {
+	
+	display: block;
+	background-color:#0384ab;
+	margin-top: 0;
+	height: 250px;
+	
+	text-align:center;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	border-width: 1px;
+}
+footer{
+	/*height: 300px;*/
+}
+/*footer end*/

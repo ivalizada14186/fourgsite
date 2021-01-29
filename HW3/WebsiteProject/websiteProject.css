@@ -1,0 +1,171 @@
+h1 {
+text-align: center;
+color: #3d9bff;
+}
+
+p {
+font-family: 'Merriweather Sans', sans-serif;
+padding: 15px;
+}
+
+
+/*intro*/
+.intro
+{
+	margin: 0 50px;
+}
+.intro p
+{
+	font-size: 22px;
+	font-family: Georgia;
+	line-height: 1.5;
+}
+/*intro ends*/
+
+
+
+/*codeacademy profile*/
+.acadProfiles
+{
+	margin: 0 50px;
+}
+.acadProfiles p
+{
+	font-size: 25px;
+	font-family: Georgia;
+}
+.acadProfiles ul li
+{
+	font-size: 25px;
+	font-family: Georgia;
+	line-height: 1.7;
+}
+/*codeacademy profile ends*/
+
+h2 {
+text-align: center;
+}
+
+.good {
+color: #2dd61e;
+}
+
+.bad {
+color: orange;
+}
+
+.ugly {
+color: red;
+}
+
+hr  {
+margin: 45px;
+}
+
+.x {
+font-family: 'Itim', cursive;
+padding: 10px;
+}
+
+.intro img {
+	width: 800px;
+	length: 400px;
+	align: center;
+}
+
+.overall img
+{
+	width: 600px;
+	length: 300px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header
+{
+	margin: 40px 35px 0 35px;
+}
+header p
+{
+	font-size: 20px;
+	line-height: 1.7;
+	font-family: Georgia;
+}
+header ul
+{
+	margin: 0 20px;
+}
+header ul li
+{
+	font-size: 22px;
+	line-height: 1.7;
+	font-family: Georgia;
+}
+.goodBadUgly
+{
+	margin: 50px 70px;
+	
+}
+.goodBadUgly p
+{
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+}
+
+/*overall*/
+.overall
+{
+	margin: 40px;
+}
+.overall p 
+{
+	font-family: Georgia;
+	font-size: 20px;
+	line-height: 1.7;
+	text-align: center;
+	color: green;
+}
+/*overall ends*/
+
+
+/*footer*/
+.menu li{ 
+	list-style-type: none;
+	font-size: 30px;
+	font-family: Calibri;
+	padding: 10px 15px;
+	border: 1px solid #0384ab;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 93px 11px;
+	background-color: #0384ab;
+	overflow: hidden;
+	transition: 0.3s linear;
+}
+.menu li:hover{
+	background-color:  #00b6ed;
+
+}
+.menu {
+	
+	display: block;
+	background-color:#0384ab;
+	margin-top: 0;
+	height: 250px;
+	
+	text-align:center;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	border-width: 1px;
+}
+footer{
+	/*height: 300px;*/
+}
+/*footer end*/

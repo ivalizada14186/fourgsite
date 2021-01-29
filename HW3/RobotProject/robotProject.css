@@ -1,0 +1,156 @@
+header
+{
+	margin-left: 20px;
+}
+
+header h1
+{
+	text-align:center;
+	color: #09b304;
+	font-family: "Georgia";
+	margin-bottom: 40px;
+}
+header p
+{
+	font-size: 25px;
+	line-height: 1.5;
+}
+header img
+{
+	width:100%;
+}
+header
+{
+	background-image: url("../Photos/robot.png");
+	height: 600px;
+	margin-top: 50px;
+}
+header ul li
+{
+	font-size: 30px;
+	margin: 20px 0;
+}
+/*team*/
+.team{
+	margin-top: 70px;
+	margin-left: 35px;
+}
+.team p
+{
+	font-size: 25px;
+	font-family: Georgia;
+	line-height: 1.7;
+}
+.team h2, .tutorial h2, .prog h2, .publish h2
+{
+	font-family: Georgia;
+ 	color: #09b304;
+
+}
+.team a
+{
+	color: red;
+}
+/*team ends*/
+
+/*tutorial*/
+.tutorial
+{
+	margin-left: 35px;
+}
+.tutorial ul li a
+{
+	text-decoration: none;
+	color: red;
+	line-height: 1.5;
+}
+.tutorial ul li, .tutorial p
+{
+	font-size: 22px;
+	font-family: Georgia;
+	line-height: 1.5;
+}
+/*tutorial ends*/
+a
+{
+	text-decoration: none;
+}
+
+/*prog*/
+.prog
+{
+	margin-left: 35px;
+}
+.prog p
+{
+	font-size: 22px;
+	font-family: Georgia;
+	line-height: 1.5;
+}
+.prog img
+{
+	display: block;
+	margin: auto;
+	width: 60%;
+}
+/*prog ends*/
+
+/*publish*/
+.publish
+{
+	margin-left: 35px;
+}
+
+.publish p
+{
+	font-size: 22px;
+	font-family: Georgia;
+	line-height: 1.5;
+}
+.publish h2
+{
+	line-height: 1.8;
+}
+/*publish ends*/
+.team p, .prog p, .publish p, .tutorial p
+{
+	margin-left: 20px;
+	margin-right: 25px;
+}
+/*footer*/
+.menu li{ 
+	list-style-type: none;
+	font-size: 30px;
+	font-family: Calibri;
+	padding: 10px 15px;
+	border: 1px solid #0384ab;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 93px 11px;
+	background-color: #0384ab;
+	overflow: hidden;
+	transition: 0.3s linear;
+
+}
+.menu li:hover{
+	background-color:  #00b6ed;
+
+}
+.menu {
+	
+	display: block;
+	background-color:#0384ab;
+	margin-top: 0;
+	height: 250px;
+	
+	text-align:center;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	border-width: 1px;
+}
+footer{
+	/*height: 300px;*/
+}
+/*footer end*/
